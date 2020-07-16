@@ -44,3 +44,12 @@ input[type="text"] {
   color: #595959;
   flex-grow: 1;
 }
+
+button {
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  outline: 0;
+  border: none;
+  color: #595959;
+  cursor: pointer;
+}
