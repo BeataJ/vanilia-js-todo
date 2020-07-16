@@ -34,3 +34,13 @@ form {
   border-radius: 5px;
   display: flex;
 }
+
+input[type="text"] {
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1rem;
+  font-family: 'Relaway', sans-serif;
+  color: #595959;
+  flex-grow: 1;
+}
