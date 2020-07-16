@@ -79,3 +79,11 @@ li {
   font-size: 1rem;
   color: #595959;
 }
+
+.clearAll {
+  display: flex;
+  justify-content: end;
+  padding: 10px 3px;
+  cursor: pointer;
+  font-size: .9rem;
+}
