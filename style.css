@@ -5,3 +5,12 @@ html {
   background-repeat: no-repeat;
   background-size: auto;
 }
+
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
