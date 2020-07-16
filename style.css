@@ -53,3 +53,7 @@ button {
   color: #595959;
   cursor: pointer;
 }
+
+button:hover {
+  color: lightcoral;
+}
