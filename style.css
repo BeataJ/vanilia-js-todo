@@ -14,3 +14,12 @@ html {
   margin: auto;
   font-family: 'Raleway', sans-serif;
 }
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+  padding: 1.5rem 0;
+  align-items: center;
+}
