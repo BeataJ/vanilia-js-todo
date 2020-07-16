@@ -27,3 +27,10 @@ html {
 .main {
   padding: 20px;
 }
+
+form {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+}
