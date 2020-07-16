@@ -87,3 +87,7 @@ li {
   cursor: pointer;
   font-size: .9rem;
 }
+
+.clearAll:hover {
+  color: lightcoral;
+}
