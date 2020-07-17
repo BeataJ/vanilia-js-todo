@@ -1,5 +1,8 @@
 // Selectors
 document.querySelector('form').addEventListener('submit', handleSubmitForm);
+document
+  .querySelector('ul')
+  .addEventListener('click', handleClickDeleteOrCheck);
 
 // Event Handlers
 function handleSubmitForm(e) {
