@@ -22,6 +22,6 @@ function addTodo(todo) {
     <button name="deleteButton"><i class="fas fa-trash"></i></button>
   `;
 
-  li.classList.add('todo-list-item');
+  // li.classList.add('todo-list-item');
   ul.appendChild(li);
 }

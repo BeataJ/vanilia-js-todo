@@ -84,6 +84,10 @@ li {
   color: #595959;
 }
 
+.todo-item {
+  flex-grow: 1;
+}
+
 .clearAll {
   display: flex;
   justify-content: end;
