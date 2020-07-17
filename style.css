@@ -35,7 +35,7 @@ form {
   display: flex;
 }
 
-input[type="text"] {
+input[type='text'] {
   height: 30px;
   outline: 0;
   border: none;
@@ -56,6 +56,10 @@ button {
 
 button:hover {
   color: lightcoral;
+}
+
+button:active {
+  transform: scale(1.2);
 }
 
 .todoList {
@@ -85,7 +89,7 @@ li {
   justify-content: end;
   padding: 10px 3px;
   cursor: pointer;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .clearAll:hover {
