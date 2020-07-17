@@ -94,4 +94,5 @@ li {
 
 .clearAll:hover {
   color: lightcoral;
+  font-weight: bold;
 }
