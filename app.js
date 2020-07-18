@@ -20,6 +20,10 @@ function handleClickDeleteOrCheck(e) {
   if (e.target.name == 'deleteButton') deleteTodo(e);
 }
 
+function handleClearAll(e) {
+  document.querySelector('ul').innerHTML = '';
+}
+
 // Hellpers
 function addTodo(todo) {
   let ul = document.querySelector('ul');
