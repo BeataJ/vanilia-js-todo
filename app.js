@@ -43,5 +43,10 @@ function checkTodo(e) {
 
 function deleteTodo(e) {
   let item = e.target.parentNode;
-  item.remove();
+
+  item.addEventListener('transitionend', function () {
+    item.remove();
+  });
+
+  item.classList.add('todo-list-item-fall');
 }
