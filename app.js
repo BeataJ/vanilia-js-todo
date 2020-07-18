@@ -33,3 +33,12 @@ function addTodo(todo) {
   // li.classList.add('todo-list-item');
   ul.appendChild(li);
 }
+
+function checkTodo(e) {
+  let item = e.target.parentNode;
+  if (item.style.textDecoration == 'line-through')
+    item.style.textDecoration = 'none';
+  else item.style.textDecoration = 'line-through';
+}
+
+function deleteTodo(e) {}
