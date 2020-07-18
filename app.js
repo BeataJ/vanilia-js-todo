@@ -41,4 +41,7 @@ function checkTodo(e) {
   else item.style.textDecoration = 'line-through';
 }
 
-function deleteTodo(e) {}
+function deleteTodo(e) {
+  let item = e.target.parentNode;
+  item.remove();
+}
