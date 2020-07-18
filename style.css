@@ -106,9 +106,10 @@ i {
 }
 
 .todo-list-item {
-  transition: all .3s ease-out;
+  transition: all 1s ease-out;
 }
 
 .todo-list-item-fall {
-  transform: translateY(12rem) rotateZ(10deg);
+  transform: translateY(30rem) translateX(12rem);
+  opacity: 0;
 }
