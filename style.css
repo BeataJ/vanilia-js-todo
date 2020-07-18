@@ -104,3 +104,11 @@ i {
   color: lightcoral;
   font-weight: bold;
 }
+
+.todo-list-item {
+  transition: all .3s ease-out;
+}
+
+.todo-list-item-fall {
+  transform: translateY(12rem), rotateZ(10deg);
+}
